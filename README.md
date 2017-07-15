@@ -1,6 +1,8 @@
 # Solucao-1.1
-Algoritmo resposta ao problema problema 1.1 (Piramide), que é encontra a soma do menor valor/menor percurso nos degraus da pirâmide, do topo até a base.
+Proposta de algoritmo para solução do problema 1.1: Encontrar o percurso (soma) dos menores valores de cada degrau da pirâmide.
 
-A solução foi executada para o console win32, na linguagem C++, utilizando o paradigma da programação orientada à objetos.
+Foi utilizado o paradigma de orientação à objetos com uma estrutura similar a uma lista dinâmica encadeada simples, com a diferença de que cada NO ganha um elemento conforme se distancia do topo da lista (pirâmide).
 
-A pirâmide cresce dinamicamente ganhando novos degraus na base conforme o usuário os informa (através da opção 1), encontrando a solução independente do que é inserido.
+O algoritmo foi desenvolvido na linguagem C++, para o console win32, na IDE Visual Studio 2017.
+
+
